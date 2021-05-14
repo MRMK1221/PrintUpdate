@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bluetooth"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:7:5-47
+8        android:minSdkVersion="14"
+8-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:7:5-47
+9        android:targetSdkVersion="18" />
+9-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:7:15-44
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:9:5-68
+11-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:9:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:10:5-74
+12-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:10:22-71
+13    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+13-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:11:5-83
+13-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:11:22-81
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:12:2-77
+14-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:12:19-75
+15
+16    <application
+16-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:14:5-49:19
+17        android:allowBackup="true"
+17-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:15:9-35
+18        android:debuggable="true"
+19        android:icon="@drawable/ic_launcher"
+19-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:16:9-45
+20        android:label="@string/app_name"
+20-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:17:9-41
+21        android:theme="@style/AppTheme" >
+21-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:18:9-40
+22        <activity
+22-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:19:9-28:20
+23            android:name="com.bluetooth.MainActivity"
+23-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:20:13-54
+24            android:label="@string/app_name"
+24-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:21:13-45
+25            android:theme="@android:style/Theme.NoTitleBar" >
+25-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:22:13-60
+26            <intent-filter>
+26-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:23:13-27:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:24:17-69
+27-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:24:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:26:17-77
+29-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:26:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:29:9-32:20
+33            android:name="com.bluetooth.SearchService"
+33-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:30:13-55
+34            android:theme="@android:style/Theme.NoTitleBar" >
+34-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:31:13-60
+35        </activity>
+36        <activity
+36-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:33:9-36:20
+37            android:name="com.bluetooth.MessageList"
+37-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:34:13-53
+38            android:theme="@android:style/Theme.NoTitleBar" >
+38-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:35:13-60
+39        </activity>
+40        <activity
+40-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:37:9-40:20
+41            android:name="com.bluetooth.OpenService"
+41-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:38:13-40
+42            android:theme="@android:style/Theme.NoTitleBar" >
+42-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:39:13-60
+43        </activity>
+44        <activity
+44-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:41:9-44:20
+45            android:name="com.bluetooth.FileService"
+45-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:42:13-40
+46            android:theme="@android:style/Theme.NoTitleBar" >
+46-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:43:13-60
+47        </activity>
+48        <activity
+48-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:45:9-48:20
+49            android:name="com.bluetooth.SetService"
+49-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:46:13-39
+50            android:theme="@android:style/Theme.NoTitleBar" >
+50-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:47:13-60
+51        </activity>
+52    </application>
+53
+54</manifest>

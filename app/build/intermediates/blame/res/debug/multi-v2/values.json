@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Android Project\\PrintUpdate1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "E:\\Android Project\\PrintUpdate1\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,6,5,7,8,9,10",
+                        "startColumns": "4,4,1,4,1,1,1,1",
+                        "startOffsets": "106,58,211,160,249,287,325,363",
+                        "endColumns": "52,46,37,52,37,37,37,37",
+                        "endOffsets": "154,100,247,208,285,323,361,399"
+                    },
+                    "to": {
+                        "startLines": "13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "537,590,637,678,731,772,813,854",
+                        "endColumns": "52,46,40,52,40,40,40,40",
+                        "endOffsets": "585,632,673,726,767,808,849,890"
+                    }
+                },
+                {
+                    "source": "E:\\Android Project\\PrintUpdate1\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "11,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "423,481",
+                        "endColumns": "57,55",
+                        "endOffsets": "476,532"
+                    }
+                },
+                {
+                    "source": "E:\\Android Project\\PrintUpdate1\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "21,28",
+                        "startColumns": "4,4",
+                        "startOffsets": "895,1186",
+                        "endLines": "27,30",
+                        "endColumns": "12,12",
+                        "endOffsets": "1181,1341"
+                    }
+                },
+                {
+                    "source": "E:\\Android Project\\PrintUpdate1\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "6,9,2,7,3,4,10,5,8",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "237,366,57,280,103,150,408,194,322",
+                        "endColumns": "41,40,44,40,45,42,42,41,42",
+                        "endOffsets": "274,402,97,316,144,188,446,231,360"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,95,134,177,216,260,301,342,382",
+                        "endColumns": "39,38,42,38,43,40,40,39,40",
+                        "endOffsets": "90,129,172,211,255,296,337,377,418"
+                    }
+                }
+            ]
+        }
+    ]
+}
