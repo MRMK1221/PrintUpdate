@@ -5,90 +5,91 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-7-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:7:5-47
-8        android:minSdkVersion="14"
-8-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:7:5-47
-9        android:targetSdkVersion="18" />
-9-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:7:15-44
+7-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:7:5-47
+8        android:minSdkVersion="18"
+8-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:7:5-47
+9        android:targetSdkVersion="27" />
+9-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:7:15-44
 10
 11    <uses-permission android:name="android.permission.BLUETOOTH" />
-11-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:9:5-68
-11-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:9:22-65
+11-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:9:5-68
+11-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:9:22-65
 12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-12-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:10:5-74
-12-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:10:22-71
+12-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:10:5-74
+12-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:10:22-71
 13    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
-13-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:11:5-83
-13-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:11:22-81
+13-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:11:5-84
+13-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:11:22-81
 14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-14-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:12:2-77
-14-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:12:19-75
-15
-16    <application
-16-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:14:5-49:19
-17        android:allowBackup="true"
-17-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:15:9-35
-18        android:debuggable="true"
-19        android:icon="@drawable/ic_launcher"
-19-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:16:9-45
-20        android:label="@string/app_name"
-20-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:17:9-41
-21        android:theme="@style/AppTheme" >
-21-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:18:9-40
-22        <activity
-22-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:19:9-28:20
-23            android:name="com.bluetooth.MainActivity"
-23-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:20:13-54
-24            android:label="@string/app_name"
-24-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:21:13-45
-25            android:theme="@android:style/Theme.NoTitleBar" >
-25-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:22:13-60
-26            <intent-filter>
-26-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:23:13-27:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:24:17-69
-27-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:24:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:26:17-77
-29-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:26:27-74
-30            </intent-filter>
-31        </activity>
-32        <activity
-32-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:29:9-32:20
-33            android:name="com.bluetooth.SearchService"
-33-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:30:13-55
-34            android:theme="@android:style/Theme.NoTitleBar" >
-34-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:31:13-60
-35        </activity>
-36        <activity
-36-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:33:9-36:20
-37            android:name="com.bluetooth.MessageList"
-37-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:34:13-53
-38            android:theme="@android:style/Theme.NoTitleBar" >
-38-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:35:13-60
+14-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:12:5-81
+14-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:12:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:13:5-78
+15-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:13:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:14:5-81
+16-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:14:22-78
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.tencent.qcloud:cosxml:5.4.26] D:\Android\gradle\caches\transforms-2\files-2.1\bcd21a48486e348a395f81da02371e48\cosxml-5.4.26\AndroidManifest.xml:11:5-79
+17-->[com.tencent.qcloud:cosxml:5.4.26] D:\Android\gradle\caches\transforms-2\files-2.1\bcd21a48486e348a395f81da02371e48\cosxml-5.4.26\AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->[com.tencent.qcloud:cosxml:5.4.26] D:\Android\gradle\caches\transforms-2\files-2.1\bcd21a48486e348a395f81da02371e48\cosxml-5.4.26\AndroidManifest.xml:12:5-67
+18-->[com.tencent.qcloud:cosxml:5.4.26] D:\Android\gradle\caches\transforms-2\files-2.1\bcd21a48486e348a395f81da02371e48\cosxml-5.4.26\AndroidManifest.xml:12:22-64
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->[com.tencent.qcloud:cosxml:5.4.26] D:\Android\gradle\caches\transforms-2\files-2.1\bcd21a48486e348a395f81da02371e48\cosxml-5.4.26\AndroidManifest.xml:13:5-80
+19-->[com.tencent.qcloud:cosxml:5.4.26] D:\Android\gradle\caches\transforms-2\files-2.1\bcd21a48486e348a395f81da02371e48\cosxml-5.4.26\AndroidManifest.xml:13:22-77
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+20-->[com.tencent.qcloud:cosxml:5.4.26] D:\Android\gradle\caches\transforms-2\files-2.1\bcd21a48486e348a395f81da02371e48\cosxml-5.4.26\AndroidManifest.xml:15:5-76
+20-->[com.tencent.qcloud:cosxml:5.4.26] D:\Android\gradle\caches\transforms-2\files-2.1\bcd21a48486e348a395f81da02371e48\cosxml-5.4.26\AndroidManifest.xml:15:22-73
+21
+22    <application
+22-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:15:5-37:19
+23        android:name="android.support.multidex.MultiDexApplication"
+24        android:allowBackup="true"
+24-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:16:9-35
+25        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+25-->[com.android.support:support-compat:28.0.0] D:\Android\gradle\caches\transforms-2\files-2.1\f14724208b5bfeeef0d6bdefe649bca7\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+26        android:debuggable="true"
+27        android:icon="@drawable/ic_launcher"
+27-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:17:9-45
+28        android:label="@string/app_name"
+28-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:18:9-41
+29        android:theme="@style/AppTheme" >
+29-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:19:9-40
+30        <activity
+30-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:21:9-30:20
+31            android:name="com.bluetooth.MainActivity"
+31-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:22:13-41
+32            android:label="@string/app_name"
+32-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:23:13-45
+33            android:theme="@style/MyAppTheme" >
+33-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:24:13-46
+34            <intent-filter>
+34-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:25:13-29:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:26:17-69
+35-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:26:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:28:17-77
+37-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:28:27-74
+38            </intent-filter>
 39        </activity>
 40        <activity
-40-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:37:9-40:20
-41            android:name="com.bluetooth.OpenService"
-41-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:38:13-40
-42            android:theme="@android:style/Theme.NoTitleBar" >
-42-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:39:13-60
-43        </activity>
-44        <activity
-44-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:41:9-44:20
-45            android:name="com.bluetooth.FileService"
-45-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:42:13-40
-46            android:theme="@android:style/Theme.NoTitleBar" >
-46-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:43:13-60
-47        </activity>
-48        <activity
-48-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:45:9-48:20
-49            android:name="com.bluetooth.SetService"
-49-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:46:13-39
-50            android:theme="@android:style/Theme.NoTitleBar" >
-50-->E:\Android Project\PrintUpdate1\app\src\main\AndroidManifest.xml:47:13-60
-51        </activity>
-52    </application>
-53
-54</manifest>
+40-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:31:9-33:63
+41            android:name="com.bluetooth.service.Client"
+41-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:32:13-43
+42            android:theme="@android:style/Theme.NoTitleBar" />
+42-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:33:13-60
+43        <activity
+43-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:34:9-36:71
+44            android:name="com.bluetooth.common.base.BaseActivity"
+44-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:35:13-53
+45            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+45-->E:\mySDK\PrintUpdate\app\src\main\AndroidManifest.xml:36:13-69
+46        <activity android:name="com.tencent.qcloud.logutils.LogActivity" />
+46-->[com.tencent.qcloud:logUtils:5.4.22] D:\Android\gradle\caches\transforms-2\files-2.1\4d5037ae8d2d5a2433c1a651dbbb9019\logUtils-5.4.22\AndroidManifest.xml:15:9-76
+46-->[com.tencent.qcloud:logUtils:5.4.22] D:\Android\gradle\caches\transforms-2\files-2.1\4d5037ae8d2d5a2433c1a651dbbb9019\logUtils-5.4.22\AndroidManifest.xml:15:19-73
+47    </application>
+48
+49</manifest>

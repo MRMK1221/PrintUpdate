@@ -12,8 +12,7 @@
     	android:textColor="@color/block"
         android:textSize="20sp"
        	android:textStyle="bold"
-       	android:gravity="center" />  
-
+       	android:gravity="center" />
 </RelativeLayout>
    
 
