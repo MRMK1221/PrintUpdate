@@ -368,7 +368,7 @@ public class MainActivity extends BaseActivity {
 						.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
 				String str1 = device.getName();
 				Log.e(TAG, "onReceive str: "+str1 );
-				if (printNameList.indexOf(str1) == -1)// 防止重复添加
+					if (printNameList.indexOf(str1) == -1)// 防止重复添加
 				{
 					Log.e(TAG, "onReceive str: "+device.getBluetoothClass().getDeviceClass());
 					if (device.getBluetoothClass().getDeviceClass()==1664){
